@@ -17,21 +17,22 @@
     <div class="center">
       <h3 class="element1">life:</h3>
       <h3 class="element2" id="life"></h3>
+      <button type="submit" class="btn btn-secondary" onclick="return restartGame()">Restart game</button>
       <h2 id="message"></h2>
     </div>
 
     <div class="centerdiv">
       <form>
-        <div class="mb-3">
+        <div class="mb-3" id="deleteDiv">
           <label>Enter the word</label>
           <input type="text" id="word">
           <button type="submit" class="btn btn-primary" onclick="return putWord()">Play</button>
         </div>
       <form>
-      <div id="character">
+      <div id="charactersSlash">
       </div>
 
-      <div id="letters">
+      <div id="keyboard">
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
